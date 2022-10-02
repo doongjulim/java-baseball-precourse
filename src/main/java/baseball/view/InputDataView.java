@@ -16,7 +16,7 @@ public class InputDataView {
         while (true){
             System.out.print("숫자를 입력해주세요 : ");
             String data = Console.readLine();
-            new InputCodeController().inputCode(data);
+            new InputCodeController().inputCode(data, numbers);
         }
     }
 }
